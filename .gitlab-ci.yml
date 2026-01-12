@@ -1,0 +1,16 @@
+stages:
+  - test
+
+before_script:
+  - python3 -m venv venv  # Tworzymy wirtualne środowisko
+  - source venv/bin/activate  # Aktywujemy wirtualne środowisko
+  - pip install -r requirements.txt  # Instalujemy zależności z pliku requirements.txt
+
+run_python_script:
+  stage: test
+  script:
+    - python3 learn/run.py  # Uruchamiamy wskazany skrypt Pythonowy
+  only:
+    - learn  # Pipeline będzie uruchamiany tylko na gałęzi 'learn'
+  tags:
+    - uczenie

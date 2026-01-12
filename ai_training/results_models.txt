@@ -1,0 +1,235 @@
+=== GridSearch RESULTS (Random Forest) ===
+  Best Params: {'max_depth': 8, 'min_samples_leaf': 4, 'min_samples_split': 2, 'n_estimators': 200}
+  Accuracy on train: 0.6933
+
+Test Accuracy (próg=0.5): 66.42%
+
+Coverage vs. Accuracy (threshold w [0.40..0.80]):
+ Threshold=0.40 => coverage=65.68%, accuracy=60.72%
+ Threshold=0.41 => coverage=64.75%, accuracy=61.06%
+ Threshold=0.42 => coverage=63.48%, accuracy=61.59%
+ Threshold=0.43 => coverage=62.62%, accuracy=61.76%
+ Threshold=0.44 => coverage=61.61%, accuracy=62.03%
+ Threshold=0.45 => coverage=60.42%, accuracy=62.32%
+ Threshold=0.46 => coverage=59.11%, accuracy=62.55%
+ Threshold=0.47 => coverage=57.65%, accuracy=63.13%
+ Threshold=0.48 => coverage=56.06%, accuracy=63.57%
+ Threshold=0.49 => coverage=53.34%, accuracy=64.16%
+ Threshold=0.50 => coverage=50.62%, accuracy=65.09%
+ Threshold=0.51 => coverage=47.51%, accuracy=66.12%
+ Threshold=0.52 => coverage=43.48%, accuracy=67.50%
+ Threshold=0.53 => coverage=40.98%, accuracy=68.47%
+ Threshold=0.54 => coverage=38.44%, accuracy=69.12%
+ Threshold=0.55 => coverage=36.46%, accuracy=69.90%
+ Threshold=0.56 => coverage=34.79%, accuracy=70.54%
+ Threshold=0.57 => coverage=33.38%, accuracy=70.98%
+ Threshold=0.58 => coverage=32.16%, accuracy=71.36%
+ Threshold=0.59 => coverage=30.88%, accuracy=72.00%
+ Threshold=0.60 => coverage=29.27%, accuracy=72.50%
+ Threshold=0.61 => coverage=27.50%, accuracy=73.41%
+ Threshold=0.62 => coverage=25.66%, accuracy=74.33%
+ Threshold=0.63 => coverage=23.74%, accuracy=75.43%
+ Threshold=0.64 => coverage=21.77%, accuracy=76.53%
+ Threshold=0.65 => coverage=20.42%, accuracy=76.91%
+ Threshold=0.66 => coverage=19.48%, accuracy=77.56%
+ Threshold=0.67 => coverage=18.16%, accuracy=78.53%
+ Threshold=0.68 => coverage=17.01%, accuracy=79.02%
+ Threshold=0.69 => coverage=15.80%, accuracy=80.10%
+ Threshold=0.70 => coverage=14.60%, accuracy=80.84%
+ Threshold=0.71 => coverage=13.22%, accuracy=81.81%
+ Threshold=0.72 => coverage=11.48%, accuracy=83.01%
+ Threshold=0.73 => coverage=9.46%, accuracy=83.06%
+ Threshold=0.74 => coverage=6.68%, accuracy=83.29%
+ Threshold=0.75 => coverage=4.59%, accuracy=83.22%
+ Threshold=0.76 => coverage=2.67%, accuracy=85.88%
+ Threshold=0.77 => coverage=1.30%, accuracy=92.77%
+ Threshold=0.78 => coverage=0.55%, accuracy=94.29%
+ Threshold=0.79 => coverage=0.09%, accuracy=100.00%
+ Threshold=0.80 => 0% coverage
+
+________________________________________________________________________
+Train Accuracy: 67.36%
+
+Wybrane parametry Gradient Boosting:
+{'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.1, 'loss': 'log_loss', 'max_depth': 3, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.9, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+
+Test Accuracy (próg=0.5): 66.29%
+
+Ocena dla klasy 1:
+ Threshold=0.40 => coverage=66.78%, accuracy=60.62%
+ Threshold=0.41 => coverage=65.30%, accuracy=61.12%
+ Threshold=0.42 => coverage=63.42%, accuracy=61.75%
+ Threshold=0.43 => coverage=61.34%, accuracy=62.25%
+ Threshold=0.44 => coverage=59.77%, accuracy=62.81%
+ Threshold=0.45 => coverage=58.14%, accuracy=63.25%
+ Threshold=0.46 => coverage=56.42%, accuracy=63.69%
+ Threshold=0.47 => coverage=53.95%, accuracy=64.36%
+ Threshold=0.48 => coverage=52.30%, accuracy=64.83%
+ Threshold=0.49 => coverage=50.15%, accuracy=65.27%
+ Threshold=0.50 => coverage=48.11%, accuracy=65.75%
+ Threshold=0.51 => coverage=45.70%, accuracy=66.39%
+ Threshold=0.52 => coverage=43.30%, accuracy=66.85%
+ Threshold=0.53 => coverage=39.85%, accuracy=67.81%
+ Threshold=0.54 => coverage=36.96%, accuracy=69.16%
+ Threshold=0.55 => coverage=34.77%, accuracy=69.98%
+ Threshold=0.56 => coverage=32.62%, accuracy=70.94%
+ Threshold=0.57 => coverage=30.86%, accuracy=71.68%
+ Threshold=0.58 => coverage=28.71%, accuracy=72.73%
+ Threshold=0.59 => coverage=27.26%, accuracy=73.53%
+ Threshold=0.60 => coverage=25.67%, accuracy=74.53%
+ Threshold=0.61 => coverage=24.08%, accuracy=75.07%
+ Threshold=0.62 => coverage=22.40%, accuracy=75.51%
+ Threshold=0.63 => coverage=21.46%, accuracy=75.60%
+ Threshold=0.64 => coverage=20.34%, accuracy=76.66%
+ Threshold=0.65 => coverage=19.84%, accuracy=76.94%
+ Threshold=0.66 => coverage=19.01%, accuracy=77.17%
+ Threshold=0.67 => coverage=18.14%, accuracy=77.21%
+ Threshold=0.68 => coverage=17.67%, accuracy=77.49%
+ Threshold=0.69 => coverage=16.85%, accuracy=78.26%
+ Threshold=0.70 => coverage=15.96%, accuracy=79.01%
+ Threshold=0.71 => coverage=14.81%, accuracy=79.83%
+ Threshold=0.72 => coverage=13.99%, accuracy=80.34%
+ Threshold=0.73 => coverage=12.97%, accuracy=80.73%
+ Threshold=0.74 => coverage=11.95%, accuracy=81.97%
+ Threshold=0.75 => coverage=10.74%, accuracy=82.87%
+ Threshold=0.76 => coverage=9.57%, accuracy=83.42%
+ Threshold=0.77 => coverage=8.32%, accuracy=83.74%
+ Threshold=0.78 => coverage=7.03%, accuracy=84.34%
+ Threshold=0.79 => coverage=5.53%, accuracy=82.95%
+ Threshold=0.80 => coverage=4.13%, accuracy=82.89%
+
+Ocena dla klasy 0:
+ Threshold=0.40 => coverage=74.33%, accuracy=60.00%
+ Threshold=0.41 => coverage=72.74%, accuracy=60.38%
+ Threshold=0.42 => coverage=71.29%, accuracy=60.75%
+ Threshold=0.43 => coverage=69.14%, accuracy=61.32%
+ Threshold=0.44 => coverage=67.38%, accuracy=61.83%
+ Threshold=0.45 => coverage=65.23%, accuracy=62.40%
+ Threshold=0.46 => coverage=63.04%, accuracy=63.04%
+ Threshold=0.47 => coverage=60.15%, accuracy=63.70%
+ Threshold=0.48 => coverage=56.70%, accuracy=64.87%
+ Threshold=0.49 => coverage=54.30%, accuracy=65.89%
+ Threshold=0.50 => coverage=51.89%, accuracy=66.80%
+ Threshold=0.51 => coverage=49.85%, accuracy=67.64%
+ Threshold=0.52 => coverage=47.70%, accuracy=68.66%
+ Threshold=0.53 => coverage=46.05%, accuracy=69.31%
+ Threshold=0.54 => coverage=43.58%, accuracy=70.35%
+ Threshold=0.55 => coverage=41.86%, accuracy=71.12%
+ Threshold=0.56 => coverage=40.23%, accuracy=71.86%
+ Threshold=0.57 => coverage=38.66%, accuracy=72.39%
+ Threshold=0.58 => coverage=36.58%, accuracy=73.49%
+ Threshold=0.59 => coverage=34.70%, accuracy=74.22%
+ Threshold=0.60 => coverage=33.22%, accuracy=74.78%
+ Threshold=0.61 => coverage=31.19%, accuracy=75.45%
+ Threshold=0.62 => coverage=29.32%, accuracy=76.57%
+ Threshold=0.63 => coverage=27.83%, accuracy=77.46%
+ Threshold=0.64 => coverage=26.32%, accuracy=78.85%
+ Threshold=0.65 => coverage=25.07%, accuracy=79.50%
+ Threshold=0.66 => coverage=24.08%, accuracy=79.96%
+ Threshold=0.67 => coverage=22.92%, accuracy=80.45%
+ Threshold=0.68 => coverage=21.93%, accuracy=81.00%
+ Threshold=0.69 => coverage=20.91%, accuracy=81.35%
+ Threshold=0.70 => coverage=20.15%, accuracy=81.98%
+ Threshold=0.71 => coverage=19.57%, accuracy=82.57%
+ Threshold=0.72 => coverage=19.45%, accuracy=82.54%
+ Threshold=0.73 => coverage=19.12%, accuracy=82.81%
+ Threshold=0.74 => coverage=18.57%, accuracy=83.32%
+ Threshold=0.75 => coverage=17.70%, accuracy=83.39%
+ Threshold=0.76 => coverage=16.27%, accuracy=84.25%
+ Threshold=0.77 => coverage=14.59%, accuracy=85.13%
+ Threshold=0.78 => coverage=12.62%, accuracy=86.05%
+ Threshold=0.79 => coverage=10.83%, accuracy=86.50%
+ Threshold=0.80 => coverage=9.54%, accuracy=87.15%
+
+Final pipeline (scaler+GB) saved to trained_model_gradient_boosting.pkl
+
+Wybrane parametry SVC:
+{'C': 1.0, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'probability': True, 'random_state': 42, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+
+Test Accuracy (próg=0.5): 65.87%
+
+Ocena dla klasy 1:
+ Threshold=0.40 => coverage=59.52%, accuracy=62.44%
+ Threshold=0.41 => coverage=58.70%, accuracy=62.75%
+ Threshold=0.42 => coverage=57.93%, accuracy=62.93%
+ Threshold=0.43 => coverage=57.24%, accuracy=63.03%
+ Threshold=0.44 => coverage=56.37%, accuracy=63.13%
+ Threshold=0.45 => coverage=55.12%, accuracy=63.43%
+ Threshold=0.46 => coverage=54.02%, accuracy=63.85%
+ Threshold=0.47 => coverage=52.49%, accuracy=64.09%
+ Threshold=0.48 => coverage=50.86%, accuracy=64.45%
+ Threshold=0.49 => coverage=49.49%, accuracy=64.99%
+ Threshold=0.50 => coverage=47.62%, accuracy=65.34%
+ Threshold=0.51 => coverage=47.02%, accuracy=65.33%
+ Threshold=0.52 => coverage=45.94%, accuracy=65.47%
+ Threshold=0.53 => coverage=44.91%, accuracy=65.38%
+ Threshold=0.54 => coverage=43.89%, accuracy=65.65%
+ Threshold=0.55 => coverage=42.76%, accuracy=66.03%
+ Threshold=0.56 => coverage=41.69%, accuracy=66.29%
+ Threshold=0.57 => coverage=40.92%, accuracy=66.38%
+ Threshold=0.58 => coverage=40.04%, accuracy=66.39%
+ Threshold=0.59 => coverage=38.72%, accuracy=67.03%
+ Threshold=0.60 => coverage=37.23%, accuracy=67.44%
+ Threshold=0.61 => coverage=35.76%, accuracy=68.22%
+ Threshold=0.62 => coverage=33.99%, accuracy=68.92%
+ Threshold=0.63 => coverage=32.01%, accuracy=69.20%
+ Threshold=0.64 => coverage=30.31%, accuracy=69.35%
+ Threshold=0.65 => coverage=27.57%, accuracy=70.35%
+ Threshold=0.66 => coverage=24.65%, accuracy=71.68%
+ Threshold=0.67 => coverage=20.55%, accuracy=72.92%
+ Threshold=0.68 => coverage=16.24%, accuracy=74.44%
+ Threshold=0.69 => coverage=9.61%, accuracy=77.74%
+ Threshold=0.70 => coverage=6.16%, accuracy=82.91%
+ Threshold=0.71 => coverage=3.82%, accuracy=83.95%
+ Threshold=0.72 => coverage=2.28%, accuracy=82.07%
+ Threshold=0.73 => coverage=1.26%, accuracy=80.00%
+ Threshold=0.74 => coverage=0.55%, accuracy=88.57%
+ Threshold=0.75 => coverage=0.28%, accuracy=83.33%
+ Threshold=0.76 => coverage=0.11%, accuracy=85.71%
+ Threshold=0.77 => coverage=0.06%, accuracy=75.00%
+ Threshold=0.78 => coverage=0.02%, accuracy=0.00%
+ Threshold=0.79 => 0% coverage
+ Threshold=0.80 => 0% coverage
+
+Ocena dla klasy 0:
+ Threshold=0.40 => coverage=62.77%, accuracy=62.16%
+ Threshold=0.41 => coverage=61.28%, accuracy=62.62%
+ Threshold=0.42 => coverage=59.96%, accuracy=62.85%
+ Threshold=0.43 => coverage=59.08%, accuracy=63.28%
+ Threshold=0.44 => coverage=58.31%, accuracy=63.60%
+ Threshold=0.45 => coverage=57.24%, accuracy=63.97%
+ Threshold=0.46 => coverage=56.11%, accuracy=64.28%
+ Threshold=0.47 => coverage=55.09%, accuracy=64.61%
+ Threshold=0.48 => coverage=54.06%, accuracy=65.25%
+ Threshold=0.49 => coverage=52.98%, accuracy=65.76%
+ Threshold=0.50 => coverage=51.22%, accuracy=66.67%
+ Threshold=0.51 => coverage=50.51%, accuracy=66.95%
+ Threshold=0.52 => coverage=49.14%, accuracy=67.27%
+ Threshold=0.53 => coverage=47.51%, accuracy=67.97%
+ Threshold=0.54 => coverage=45.98%, accuracy=68.75%
+ Threshold=0.55 => coverage=44.88%, accuracy=69.04%
+ Threshold=0.56 => coverage=43.63%, accuracy=69.59%
+ Threshold=0.57 => coverage=42.76%, accuracy=70.11%
+ Threshold=0.58 => coverage=42.07%, accuracy=70.52%
+ Threshold=0.59 => coverage=41.30%, accuracy=70.88%
+ Threshold=0.60 => coverage=40.48%, accuracy=71.11%
+ Threshold=0.61 => coverage=39.77%, accuracy=71.46%
+ Threshold=0.62 => coverage=39.08%, accuracy=71.72%
+ Threshold=0.63 => coverage=38.04%, accuracy=72.11%
+ Threshold=0.64 => coverage=36.91%, accuracy=72.44%
+ Threshold=0.65 => coverage=35.94%, accuracy=72.83%
+ Threshold=0.66 => coverage=34.41%, accuracy=73.82%
+ Threshold=0.67 => coverage=32.86%, accuracy=74.59%
+ Threshold=0.68 => coverage=31.90%, accuracy=75.41%
+ Threshold=0.69 => coverage=30.34%, accuracy=75.80%
+ Threshold=0.70 => coverage=28.72%, accuracy=76.30%
+ Threshold=0.71 => coverage=27.02%, accuracy=77.43%
+ Threshold=0.72 => coverage=24.73%, accuracy=78.45%
+ Threshold=0.73 => coverage=11.82%, accuracy=80.32%
+ Threshold=0.74 => coverage=5.31%, accuracy=77.22%
+ Threshold=0.75 => coverage=1.81%, accuracy=72.17%
+ Threshold=0.76 => coverage=0.60%, accuracy=63.16%
+ Threshold=0.77 => coverage=0.31%, accuracy=70.00%
+ Threshold=0.78 => coverage=0.05%, accuracy=100.00%
+ Threshold=0.79 => coverage=0.05%, accuracy=100.00%
+ Threshold=0.80 => coverage=0.05%, accuracy=100.00%
